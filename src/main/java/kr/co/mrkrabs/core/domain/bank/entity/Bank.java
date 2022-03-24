@@ -1,6 +1,6 @@
 package kr.co.mrkrabs.core.domain.bank.entity;
 
-import kr.co.mrkrabs.core.global.config.properties.MrCrabsProperties;
+import kr.co.mrkrabs.core.global.config.MrCrabsProjectConfig;
 import lombok.Getter;
 
 import javax.persistence.*;
@@ -28,7 +28,7 @@ import java.util.Date;
  */
 @Entity
 @Getter
-@Table(name = MrCrabsProperties.BANK_TABLE_NAME)
+@Table(name = MrCrabsProjectConfig.BANK_TABLE_NAME)
 public class Bank {
 
     @Id

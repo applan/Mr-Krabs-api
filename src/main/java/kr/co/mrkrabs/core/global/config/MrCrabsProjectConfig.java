@@ -1,4 +1,4 @@
-package kr.co.mrkrabs.core.global.config.properties;
+package kr.co.mrkrabs.core.global.config;
 
 /**
  * <pre>
@@ -14,7 +14,7 @@ package kr.co.mrkrabs.core.global.config.properties;
  * @author applan
  * @version 1.0
  */
-public class MrCrabsProperties {
+public class MrCrabsProjectConfig {
 
     // TABLE
     public final static String BANK_TABLE_NAME = "bank";

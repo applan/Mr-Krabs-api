@@ -1,8 +1,7 @@
 package kr.co.mrkrabs.core.domain.card.entity;
 
-import kr.co.mrkrabs.core.domain.bank.entity.Bank;
 import kr.co.mrkrabs.core.domain.card.model.CardType;
-import kr.co.mrkrabs.core.global.config.properties.MrCrabsProperties;
+import kr.co.mrkrabs.core.global.config.MrCrabsProjectConfig;
 import lombok.Getter;
 
 import javax.persistence.*;
@@ -34,7 +33,7 @@ import java.util.Date;
  */
 @Entity
 @Getter
-@Table(name = MrCrabsProperties.CARD_TABLE_NAME)
+@Table(name = MrCrabsProjectConfig.CARD_TABLE_NAME)
 public class Card {
 
     @Id

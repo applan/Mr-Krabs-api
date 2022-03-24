@@ -1,6 +1,6 @@
 package kr.co.mrkrabs.core.domain.bankbook.entity;
 
-import kr.co.mrkrabs.core.global.config.properties.MrCrabsProperties;
+import kr.co.mrkrabs.core.global.config.MrCrabsProjectConfig;
 import lombok.Getter;
 
 import javax.persistence.*;
@@ -30,7 +30,7 @@ import java.util.Date;
  */
 @Entity
 @Getter
-@Table(name = MrCrabsProperties.BANK_BOOK_TABLE_NAME)
+@Table(name = MrCrabsProjectConfig.BANK_BOOK_TABLE_NAME)
 public class BankBook {
 
     @Id
