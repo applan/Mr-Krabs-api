@@ -18,6 +18,11 @@
 | `Version`    |  GitHub  |         |
 
 
+## 요구사항 마인드 맵
+> 2022-04-05에 정리
+
+![mindMap](Mr.Krabs.jpg)
+
 ## 프로젝트 구조
 - kr
   - co
