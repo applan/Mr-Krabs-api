@@ -29,33 +29,29 @@
     - mrkrabs
       - core
         - domain
-          - bank      [은행]
-            - controller
-            - entity
-            - repository
-            - service
-          - bankbook  [통장]
-            - controller
-            - entity
-            - repository
-            - service
-          - card      [카드]
-            - ...
-          - category  [사용처 카테고리]
-            - ...
-          - fixedcost [고정 지출]
-            - ...
-          - savings   [적금]
-            - ...
-          - cash      [현금]
-            - ...
-      - global
-        - config
-        - model
-
-
-## 참고한 사이트
-
-- JPA
-  - [\[JPA\]\[GenerationType\] 기본키(PK) 매핑 방법 및 생성 전략](https://gmlwjd9405.github.io/2019/08/12/primary-key-mapping.html)
-  - [\[JPA\]\[Mapping\] 다양한 연관관계 매핑 - @OneToMany @ManyToOne @OneToOne @ManyToOne](https://jyami.tistory.com/21) 
+          - dashBoard [대시보드]
+          - lookup [조회]
+            - all
+            - out
+            - in
+          - bank [자산관리]
+            - card
+            - insurance
+            - loan
+            - bank book
+            - cash
+            - out
+              - fixed
+              - flex
+            - in
+              - salary
+              - wage
+          - system settings [시스템 설정]
+            - menu
+            - history
+              - data
+              - login
+        - global
+          - config
+          - model
+        - util

@@ -14,7 +14,7 @@ package kr.co.mrkrabs.core.global.config;
  * @author applan
  * @version 1.0
  */
-public class MrCrabsProjectConfig {
+public class MrKrabsProjectConfig {
 
     // TABLE
     public final static String BANK_TABLE_NAME = "bank";
