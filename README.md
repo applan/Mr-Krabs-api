@@ -46,6 +46,9 @@
             - in
               - salary
               - wage
+          - etc [기타 관리]
+            - bank
+            - category
           - system settings [시스템 설정]
             - menu
             - history
