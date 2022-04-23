@@ -40,6 +40,7 @@
             - loan
             - bank book
             - cash
+            - savings
             - out
               - fixed
               - flex
