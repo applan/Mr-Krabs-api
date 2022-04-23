@@ -1,6 +1,7 @@
-package kr.co.mrkrabs.core.domain.dashboard.service;
+package kr.co.mrkrabs.core.domain.dashboard.service.impl;
 
-import kr.co.mrkrabs.core.domain.dashboard.service.impl.DashBoardService;
+
+import kr.co.mrkrabs.core.domain.dashboard.service.DashBoardService;
 import org.springframework.stereotype.Service;
 
 import javax.servlet.http.HttpServletRequest;

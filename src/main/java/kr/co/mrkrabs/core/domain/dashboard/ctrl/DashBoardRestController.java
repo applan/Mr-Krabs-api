@@ -1,6 +1,6 @@
 package kr.co.mrkrabs.core.domain.dashboard.ctrl;
 
-import kr.co.mrkrabs.core.domain.dashboard.service.DashBoardServiceImpl;
+import kr.co.mrkrabs.core.domain.dashboard.service.impl.DashBoardServiceImpl;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

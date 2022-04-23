@@ -1,4 +1,4 @@
-package kr.co.mrkrabs.core.domain.dashboard.service.impl;
+package kr.co.mrkrabs.core.domain.dashboard.service;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
