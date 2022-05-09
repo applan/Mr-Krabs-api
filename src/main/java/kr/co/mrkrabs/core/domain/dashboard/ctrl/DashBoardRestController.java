@@ -16,13 +16,14 @@ import java.util.Map;
  * - 수정 이력 -
  * --------------------------------------------------------
  * [ 2022-04-07 applan I ] 최초 작성
+ * [ 2022-05-10 applan U ] 호출 URL 변경
  * --------------------------------------------------------
  * </pre>
  * @author applan
  * @version 1.0
  */
 @RestController
-@RequestMapping("/dashboard/get")
+@RequestMapping("/dashboard")
 public class DashBoardRestController {
 
     DashBoardServiceImpl dashBoardServiceImpl;
